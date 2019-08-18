@@ -1,6 +1,6 @@
 {
-  "short_name": "Tilskudd",
-  "name": "Tilskudd dashboard",
+  "short_name": "ElevPC",
+  "name": "ElevPC dashboard",
   "start_url": "/",
   "background_color": "#FFFFFF",
   "display": "minimal-ui",
