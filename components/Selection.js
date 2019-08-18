@@ -20,7 +20,8 @@ export default class Status extends Component {
 
   async tick () {
     const data = await getData(this.props.source)
-    this.setState({ data: data })
+    const value = { total: data[0]['archive']['done']['count'] }
+    this.setState({ data: value })
   }
 
   render () {
