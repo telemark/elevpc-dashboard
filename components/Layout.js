@@ -4,9 +4,9 @@ import Navbar from './Navbar'
 export default ({ children }) => (
   <div>
     <Head />
-    <Navbar title={'Dashboard ElevPC'} />
-    <div className={'wrapper'}>
-      { children }
+    <Navbar title='Dashboard ElevPC' />
+    <div className='wrapper'>
+      {children}
     </div>
     <style jsx global>
       {`

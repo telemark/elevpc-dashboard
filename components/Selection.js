@@ -13,14 +13,14 @@ export default class Status extends Component {
 
   async componentDidMount () {
     const data = await getData(this.props.source)
-    const value = { total: data[0]['archive']['done']['count'] }
+    const value = { total: data[0].archive.done.count }
     this.setState({ data: value })
     this.timer = setInterval(this.tick, parseInt(this.props.refresh || '1', 10) * 1000 * 60)
   }
 
   async tick () {
     const data = await getData(this.props.source)
-    const value = { total: data[0]['archive']['done']['count'] }
+    const value = { total: data[0].archive.done.count }
     this.setState({ data: value })
   }
 
