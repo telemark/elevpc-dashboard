@@ -15,27 +15,27 @@ export default class Index extends Component {
         <Layout>
           <Row>
             <div>
-              <Total title='Antall kontrakter' source='https://stats.avtaler.minelev.no/stats/total/elevpc' refresh='10' />
+              <Total title='Kontrakter' source='https://stats.avtaler.minelev.no/stats/total/elevpc' refresh='10' />
             </div>
             <div>
-              <Total title='Antall signerte' source='https://stats.avtaler.minelev.no/stats/signed/elevpc' refresh='10' />
+              <Total title='Signerte kontrakter' source='https://stats.avtaler.minelev.no/stats/signed/elevpc' refresh='10' />
             </div>
             <div>
-              <Total title='Antall avbrutte' source='https://stats.avtaler.minelev.no/stats/cancelled/elevpc' refresh='10' />
+              <Total title='Avbrutte kontrakter' source='https://stats.avtaler.minelev.no/stats/cancelled/elevpc' refresh='10' />
             </div>
           </Row>
           <Row>
             <div>
-              <Total title='Antall parts' source='https://stats.avtaler.minelev.no/stats/parts/elevpc' refresh='10' />
+              <Total title='Parts' source='https://stats.avtaler.minelev.no/stats/parts/elevpc' refresh='10' />
             </div>
             <div>
-              <Total title='Antall signerte parts' source='https://stats.avtaler.minelev.no/stats/parts/elevpc/signed' refresh='10' />
+              <Total title='Signerte parts' source='https://stats.avtaler.minelev.no/stats/parts/elevpc/signed' refresh='10' />
             </div>
             <div>
-              <Total title='Antall avbrutte parts' source='https://stats.avtaler.minelev.no/stats/parts/elevpc/cancelled' refresh='10' />
+              <Total title='Signert av admin' source='https://stats.avtaler.minelev.no/stats/signedbyadmin/elevpc' refresh='10' />
             </div>
             <div>
-              <Selection title='Antall arkiverte parts' source='https://stats.service.t-fk.no/stats/avtaler-nedlasting' refresh='10' />
+              <Total title='Avbrutte parts' source='https://stats.avtaler.minelev.no/stats/parts/elevpc/cancelled' refresh='10' />
             </div>
           </Row>
           <Row>
