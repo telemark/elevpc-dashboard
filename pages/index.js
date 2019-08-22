@@ -1,7 +1,6 @@
 import { Component } from 'react'
 import Head from 'next/head'
 import Total from '../components/Total'
-import Selection from '../components/Selection'
 import Layout from '../components/Layout'
 import Row from '../components/Row'
 
